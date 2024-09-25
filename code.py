@@ -41,7 +41,8 @@ def authenticate_user():
             
         elif command == password1:
             is_condition_true = True
-            filename = "rohit.txt"
+            filename = "rohit.txt" <!-- replace your file path stored in your device -->
+
 
 
             if is_condition_true:
