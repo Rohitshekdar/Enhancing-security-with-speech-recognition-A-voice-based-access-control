@@ -1,6 +1,10 @@
 # Enhancing secuirty with speech recognition: A voice-based access control
-This project aims to create a hands-free speech recognition system that gives the access to the users to thier confidential data using predefined passphrases. Each individual has a unique passphrase which when matched with thier password opens their files.
-In this project we have used Tkinter for the GUI and google API named Recognize_speech to detect the phrases and convert them into text and match with predefined passphrases.
-TOOL USED FOR CODE : VISUAL STUDIOS
-PROGRAMMING LANGUAGE : PYTHON
-GUI PACKAGE : TKINTER (In-built in python)
+This project implements a hands-free speech recognition system that allows users to securely access their confidential data using predefined passphrases. Each user has a unique passphrase, which, when matched with their stored password, grants access to their files.
+
+The system integrates a graphical user interface (GUI) built with Tkinter, and leverages Google’s Recognize_speech API to detect and convert spoken phrases into text. The spoken text is then matched against predefined passphrases to authenticate users.
+
+Tools and Technologies
+Programming Language: Python
+IDE: Visual Studio
+GUI Package: Tkinter (in-built with Python)
+Speech Recognition API: Google’s Recognize_speech
